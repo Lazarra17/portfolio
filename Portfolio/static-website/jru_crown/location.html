@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="Nicoyah" />
+    <link href="css/mylike.css" type="text/css" rel="stylesheet">
+    <link href="css/icons.css" type="text/css" rel="stylesheet">
+	<title>JRU - Location</title>
+</head>
+
+<body onload="showmap()">
+<div id="container" style="height: 800px;">
+<div id="topcover">
+<div id="top">
+<img src="images/logo.png" width="110px"  />
+<span class="top" >JOS&#201 RIZAL UNIVERSITY <br /><p style="color: #222222;font-size: 13px;text-align:center">80 Shaw Boulevard, Mandaluyong<br /> 1552 Metro Manila<br />(02) 531 8031</p></span>
+
+<span class="top" style="visibility: hidden;position:relative" >JOS&#201 RIZAL UNIVERSITY</span>
+
+<img src="images/bomber.png" width="120px" style="" />
+</div>
+</div>
+<div id="menu"> 
+<ul>
+
+<a href="home.html" ><li  >Home</li></a>
+<a href="about_us.html"><li>About Us</li></a>
+<a href="faculty.html"><li>Faculty</li></a>
+<a href="location.html"style="color: white;" id="selected"><li>Location</li></a>
+<a href="contact.html"><li>Contact Us</li></a>
+</ul>
+</div>
+<div id="discription">
+<p>(Note: To view the map you need internet.)</p>
+ <iframe  id="map"
+  width="977"
+  height="450"
+  frameborder="0" style="border:1px solid grey;"
+  src="" allowfullscreen>
+</iframe>
+
+<p>Need directions? <a target="_blank" href="https://maps.google.com/maps?ll=14.592642,121.028156&z=16&t=m&hl=en-US&gl=US&mapclient=embed&daddr=Jose%20Rizal%20University%2080%20Shaw%20Boulevard%20Mandaluyong%201552%20Metro%20Manila%2C%20Philippines@14.592642,121.028156">Click here!</a></p>
+
+</div>
+<script>
+
+function showmap(){  
+   
+    document.getElementById("map").src = "https://www.google.com/maps/embed/v1/place?key=AIzaSyCHaDcDOh4CbOm34e_rOa0w-Ve7kDe7m8s&q=Jose+Rizal+University";
+    
+}
+
+</script>
+</body>
+</html>

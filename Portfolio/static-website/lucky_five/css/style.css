@@ -1,0 +1,109 @@
+body{
+    margin:0px 0px;
+    font-family:  sans-serif;
+}
+nav {
+    display:block;
+}
+.navigation{
+    background-image:  url(../images/header.jpg);   
+    height:116px;
+    padding:15px;
+
+    margin:0px;    
+    background-repeat:repeat-x;
+}
+.navigation ul.menu{
+  
+  margin-top: 30px;
+  margin-left:70px;  
+}
+.navi{
+    display:block;
+    width:1340px;
+
+}
+
+.navigation ul.menu li{
+    list-style-type: none;
+    display:inline;
+    margin-right:30px;
+    font-weight:bold;
+    font-size:15px;
+    
+    
+}
+.navigation img{
+    float:left;
+    position: absolute;
+    top:15px;
+    
+}
+.navigation ul.menu li a{
+    color:white;
+    text-decoration:none
+}
+.navigation ul.menu li a:hover{
+    border-bottom:2px solid white;
+
+}
+p.text-center{
+    text-align:center;
+    margin:0px;
+    padding:0px;
+}
+.parallax{
+    background-image:  url(../images/backg2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height:100%;
+    min-height:460px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    
+}
+.black-wrapper{
+    background-image:url('../images/bgblack.png');
+  
+    margin:auto;
+    padding:5px 10px;
+    margin-top:20px;
+}
+.black-wrapper p{
+    color:white;
+    opacity:1;
+    font-size: 14px;
+    padding:0px 0px;
+    text-align:center;
+}
+.lf-projects h2{
+    background-color: #3cb879;
+    padding:10px;
+    color:white;
+    padding-left:30px;
+    margin:0px;
+}
+.parallax-projects{
+
+    min-height:500px;
+    background-image:url(../images/backg1.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:750px;
+    background-position:center 140px;
+    padding-top:50px;
+}
+h1.online-banking-title{
+    color:white;
+    padding:2px;
+    margin:0px;
+    text-align:center;
+
+}
+.read-more{
+    padding:5px 15px;
+    background-color:yellowgreen;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}

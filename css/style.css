@@ -1,0 +1,132 @@
+/*
+@author: Chad Nico Lazarra
+@version: 1.0
+*/
+body{
+    background-color:#f1f1f1;    
+    font-family: 'roboto', sans-serif;
+}
+
+
+/* Navigation Menu */
+#primary-nav .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 70px;
+}
+img.logo{
+    width: 155px;
+}
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+    img.logo{
+        width: 110px;    
+        margin-top: -5px;
+    }
+}
+
+/*Background*/
+.mybg{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;    
+}
+.my-bg-position{
+    position: absolute;
+    top:0px;
+    margin-left:-110px;
+    padding:0px;
+    width: 1360px;
+    height: 810px;
+}
+
+/*Welcome Message*/
+.welcome-message{
+    height: 510px;
+}
+
+.margin-off{
+    margin:0px;
+    padding:0px;
+    
+}
+
+
+/* Homepage summary content  */
+img.summary-photo{
+    width: 300px;
+    display: block;
+    margin-top:20px;
+}
+.summary-name, .summary-content{
+    font-style:italic;
+}
+p.summary-content{
+    font-size:15px;
+}
+h3.summary-name{
+    margin-bottom:5px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.read-more{
+    padding-top: 3px;
+    padding-bottom:3px;
+    font-size:13px;
+    border-radius: 0px;
+}
+
+/*About Me Page*/
+.about-me-bg{
+    background: url(../images/about-me-bg.jpg)   no-repeat ;
+    background-size:cover;
+    background-position: 50% 50%;
+    color:#e1e1e1;
+}
+h1.about-me-name{
+    font-size: 50px;
+    padding-top:20px;
+    margin-bottom:0px;
+}
+img.about-me-image{
+   margin-top:30px;
+    margin-bottom:50px;
+}
+p.about-me-tagline{
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+
+ 
+}
+p.about-me-content{
+    padding-top:6px;
+    letter-spacing: .8px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+img.social-link{
+    width:40px;
+}
+
+/*Footer and Secondary Navigation*/
+.footer-link-bg{
+    background-color:#222;
+}
+ul.my-navbar{
+    color:white;
+    padding: 10px;
+    font-weight: bold;
+}
+ul.my-navbar li{
+    display: inline;
+    padding:5px 5px;
+}
+p.copyright{
+    font-size:90%;
+    color:#666;
+}

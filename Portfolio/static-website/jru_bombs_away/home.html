@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<link rel="stylesheet" tabindex="text/css" href="css/mystyle.css" />
+</head>
+<body>
+<nav>
+<h1 class="name">JOS&#201 RIZAL UNIVERSITY</h1> 
+<div class="nav">
+<ul>
+
+
+<li><a href="home.html">Home</a></li>
+<li><a href="about_jru.html">About JRU</a></li>
+<li><a href="IT_faculty.html">IT Faculty</a></li>
+<li><a href="library.html">Library</a></li>
+<li><a href="location.html">Location</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><img src="images/logo.png" width="95px" /></li>
+</ul>
+</div>
+</nav>
+<div class="image">
+<img id="image" src="images/slides1.jpg"><br />
+<input onclick="slide1()" checked="" type="radio" name="img1" />
+<input onclick="slide2()" type="radio" name="img1" />
+<input onclick="slide3()" type="radio" name="img1" />
+<input onclick="slide4()" type="radio" name="img1" />
+<input onclick="slide5()" type="radio" name="img1" />
+<input onclick="slide6()" type="radio" name="img1" />
+</div>
+<div class="main">
+
+<div id="container">
+<h1>JOS&#201 RIZAL UNIVERSITY</h1>
+<p>Formerly Jose Rizal College / JRC is a non-sectarian, 
+non-stock private educational institution. It is located at Shaw Boulevard, Mandaluyong City,
+ Philippines. It was founded in 1919 by Vicente Fabella, who was the first Philippine Certified Accountant.</p>
+
+
+<a href="about_jru.html"> Read More </a>
+<div style="clear: both;"></div>
+<br /><br /><br />
+
+<div id="submenu" style="margin-left:46px ;">
+
+
+<h1 style="border-top: 2px solid green;"> About Us</h1>
+<img src="images/about-us.png" />
+<p>Jose Rizal University (JRU) prides itself for being among
+ the most inexpensive private universities in the ...</p><br />
+ <a href="about_jru.html">READ MORE</a>
+</div>
+
+<div id="submenu">
+
+
+<h1 style="border-top: 2px solid orange;"> IT Faculty</h1>
+<img src="images/faculty.png" />
+<p>List of Jose Rizal University amazing faculty only in IT-Department...</p><br />
+ <a href="it_faculty.html">READ MORE</a>
+</div>
+
+<div id="submenu">
+
+
+<h1 style="border-top: 2px solid red;"> Library</h1>
+<img src="images/book.png" />
+<p>Wherever you are, you can check the available books in Jose Rizal University Library...</p><br />
+ <a href="library.html">READ MORE</a>
+</div>
+
+<div id="submenu">
+
+
+<h1 style="border-top: 2px solid royalblue;"> Location</h1>
+<img src="images/location.png" />
+<p>The JRU campus is an ecology-friendly habitat in the heart of Metro Manila, an oasis of learning. We can think of no better place ...</p><br />
+ <a href="location.html">LOCATE</a>
+
+</div>
+
+</div></div>
+<footer>
+<div class="foot01">
+
+</div></footer>
+<div id="sounds" hidden="">
+
+<audio controls=""loop="" autoplay="">
+<source src="sound.mp3" type="audio/mpeg" />
+</audio>
+</div>
+<script>
+function slide1(){
+    document.getElementById("image").src = "images/slides1.jpg";    
+}
+function slide2(){
+    document.getElementById("image").src = "images/slides2.jpg";    
+}
+function slide3(){
+    document.getElementById("image").src = "images/slides3.jpg";    
+}
+function slide4(){
+    document.getElementById("image").src = "images/slides4.jpg";    
+}
+function slide5(){
+    document.getElementById("image").src = "images/slides5.jpg";    
+}
+function slide6(){
+    document.getElementById("image").src = "images/slides6.jpg";    
+}
+
+
+</script>
+
+</body>
+
+</html>

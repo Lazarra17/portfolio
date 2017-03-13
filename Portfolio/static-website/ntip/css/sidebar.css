@@ -1,0 +1,31 @@
+.sidepanel{
+	z-index: 999;
+}
+.sidepanel-container{
+	position: fixed;
+    z-index: 999;
+    margin-top: 0;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    /*background: rgb(50, 64, 78);*/
+    background: #0D47A1;
+}
+.sidepanel-icon a{
+    color: white;
+    width: 100%;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+.hdr{
+    width:90%;
+    opacity: 0.6;
+ }
+  .subtitle{
+  padding-left: 15px;
+  font-size: 16px;
+  color:white;
+ }

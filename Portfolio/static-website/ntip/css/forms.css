@@ -1,0 +1,47 @@
+/* html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+*/body{
+	background-color: #E0E0E0;
+}
+
+.login-title{
+	font-weight:bold;
+	color:black;
+	letter-spacing: 1px;
+}
+.login{
+	opacity: 0.9;
+	background-color:white;
+	padding-top: 25px;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	padding-bottom:15px;
+	width: 40%;
+	border-radius: 10px;
+	color: #fff;
+}
+.login input{
+	color:black;
+}
+
+.register-title{
+	font-weight:bold;
+	color:black;
+	letter-spacing: 1px;
+}
+.register{
+	opacity: 0.9;
+	background-color:white;
+	padding-top: 25px;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	padding-bottom:15px;
+	width: 60%;
+	border-radius: 10px;
+	color: #fff;
+}
+.register input{
+	color:black;
+}
+

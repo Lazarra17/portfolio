@@ -1,0 +1,156 @@
+body{
+    font-family: sans-serif;
+    line-height: 1.3em;
+    color:#333;
+    margin:0px;
+    padding:0px;
+    background-color: #f1f1f1;
+    
+}
+p{
+    font-size:14px;
+}
+.container{
+    width:1124px;
+    border-radius:7px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #333 inset;
+    margin:auto;
+    background-color:white;
+    }
+.header-first{
+    width:70%;    
+    float:left;
+    padding-left:10px;
+    box-sizing: border-box;
+
+}
+.header-first h1, h2{
+    color:#555;
+    margin-bottom:0px;
+    padding-bottom:0px;
+   
+}
+
+.header-second{
+    width:30%;
+    float: right;
+    box-sizing: border-box;        
+}
+.header-second img{
+    float:right;
+    height:100px;
+    margin-right:10px;
+}
+.clearfx{
+    margin:0px;
+    padding:0px;
+    *zoom: 1;
+}
+.clearfx:after{
+    content:"";
+    display:table;
+}
+.clearfx{
+    clear:both;
+}
+.nav ul{
+    text-align:right;
+    margin-right:100px;
+}
+.nav ul li{
+    list-style-type:none;
+    font-weight:bold;
+    margin: 0px 15px;
+    display:inline;
+}
+.nav ul li a:link,.nav ul li a:visited{
+    color:#555;
+    text-decoration:none;
+}
+.nav ul li a:hover{
+    border-bottom: 4px solid #777;
+    padding-bottom:5px;
+}
+.nav ul li.active{
+    border-bottom: 4px solid #777;
+    padding-bottom:5px;
+}
+.first-half{
+    width:35%;
+    float:left;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.second-half{
+    width:65%;
+    box-sizing: border-box;
+    float:right;
+    margin-right:-40px;
+
+}
+a.btn-submit{
+    text-decoration:none;
+    border: 1px solid skyblue;
+    padding:5px 10px;
+    background-color:cornflowerblue;
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+}
+a.btn-submit:hover{
+    background-color:darkblue;
+}
+.footer-section{
+    width:100%;
+    padding-top:35px;
+}
+.footer-menu{
+    width:33%;
+    box-sizing: border-box;
+    float:left;
+    margin-bottom:20px;
+}
+.footer-menu img{
+    float:left;
+}
+.footer-menu h2{
+    padding: 5px;
+    border-top:3px solid greenyellow;
+    margin:10px;
+}
+.footer-menu:nth-child(2) h2{
+    padding: 5px;
+    border-top:3px solid salmon;
+    margin:10px;
+}
+.footer-menu:nth-child(3) h2{
+    padding: 5px;
+    border-top:3px solid darkblue;
+    margin:10px;
+}
+.footer-menu p{
+    font-size:12px;
+
+}
+.footer-links p{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    font-size:13px;
+}
+.footer-links p a{
+    text-decoration:none;
+    color:cornflowerblue;
+}
+.footer-links p a:hover{
+    border-bottom:2px solid cornflowerblue;
+}
+
+.copyright p{
+    text-align:center;
+    font-size:12px;
+    color:#888;
+    margin:20px;
+}
+    

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<link rel="stylesheet" tabindex="text/css" href="css/mystyle.css" />
+</head>
+<body onload="showmap()">
+<nav>
+<h1 class="name">JOS&#201 RIZAL UNIVERSITY</h1> 
+<div class="nav">
+<ul>
+
+
+<li><a href="home.html">Home</a></li>
+<li><a href="about_jru.html">About JRU</a></li>
+<li><a href="IT_faculty.html">IT Faculty</a></li>
+<li><a href="library.html">Library</a></li>
+<li><a href="location.html">Location</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><img src="images/logo.png" width="95px" /></li>
+</ul>
+</div>
+</nav>
+
+<div class="main">
+
+<div id="container2">
+<h2>JOS&#201 RIZAL UNIVERSITY - Map Location</h2>
+<p>The JRU campus is an ecology-friendly habitat in the heart of Metro Manila, an oasis of learning. <br/> <strong>School address </strong>
+80 Shaw Boulevard, Mandaluyong
+1552 Metro Manila<br />
+<strong>Contact:</strong>
+(02) 531 8031
+<p>(Note: To view the map you need internet.)</p>
+ <iframe  id="map"
+  width="977"
+  height="450"
+  frameborder="0" style="border:1px solid grey;"
+  src="" allowfullscreen>
+</iframe>
+
+</div>
+
+</div></div>
+<footer>
+<div class="foot01">
+
+</div></footer>
+
+<script>
+
+function showmap(){  
+   
+    document.getElementById("map").src = "https://www.google.com/maps/embed/v1/place?key=AIzaSyCHaDcDOh4CbOm34e_rOa0w-Ve7kDe7m8s&q=Jose+Rizal+University";
+    
+}
+
+</script>
+
+</body>
+
+</html>

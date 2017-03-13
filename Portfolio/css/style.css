@@ -1,0 +1,151 @@
+body{
+    background:url('../images/background.jpg') no-repeat;
+    background-size: cover;
+ 
+    
+}
+.container-bg-white{
+    background-color:white;
+    padding:20px;
+}
+.container-bg-blue{
+    background-color:#0072bc;
+    padding:0px;
+    padding:10px;
+    
+}
+.bg-blue{
+    background-color:#0072bc;    
+    border: 1px solid #0072bc;
+    margin-bottom: 0px;
+    margin-top:
+   
+
+}
+.icons{
+    padding-top:20px;
+}
+.bg-blue{
+    background-color:#0072bc;    
+    border: 1px solid #0072bc;
+    margin-bottom: 0px;
+
+}
+.text-white{
+    color:white;
+}
+.nav.navbar-nav li a{
+    color:white;
+    
+}
+ul.navbar-nav li:hover{
+    background-color:#0365a5; 
+}
+.active-menu{
+    background-color:#0365a5;
+    
+}
+.L17-spacing{
+    margin-bottom:5px;
+}
+.space-top{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.space-top-footer{
+    margin-top:30px;
+    
+}
+h1.L17-content-title{
+    margin:0px;
+    padding:0px;
+}
+p.web-name{
+    margin:0px;
+    padding:0px;
+    font-size:15px;
+    font-weight:bold;
+    color:#666;
+}
+.carousel-caption{
+    padding:0px;
+    margin:0px;
+    position:absolute; 
+}
+.carousel-caption h3{
+    background-color:#777;
+    width:100%;
+}
+.responsive-web-name{
+    position:absolute;
+    padding-left:5px;
+    padding-right:5px;
+    bottom:20px;
+    right:15px;
+    left:15px;
+    
+}
+.responsive-web-name h3{
+    
+    background-color:#555;
+    text-align:center;
+    color:white;
+    padding:10px;
+    margin:0px;
+
+}
+a.responsive-web-link {
+    color:#f1f1f1;
+}
+
+.edm-wrapper{
+    width:260px;
+    height:330px;
+    overflow:hidden;
+
+}
+.navbar-nav > li > a.dropdown-toggle:focus,.navbar-nav > li > .dropdown-menu a:hover{
+    background-color:#0365a5 !important;
+}
+.navbar-nav > li > .dropdown-menu { 
+    background-color: #0072bc; 
+}
+
+.website-wrapper{
+    height:185px;
+    overflow:hidden;
+}
+.year{
+    color:black;
+    padding: 5px 0px 0 0;
+    color:black;
+    margin:0px 0 10px 0;
+    color:#555;
+    border-bottom:2px solid #DDD;
+}
+
+
+/*EDM page*/
+
+
+
+
+/*Social Media icon*/
+.social-icon{
+    font-size: 25px;
+    color:white;
+    text-align:center;
+    background-color:#00baff;
+    padding:6px;
+}
+.social-size{
+    width:30px;
+    height:30px;
+}
+a.social-icon:hover{
+    color:white;
+    box-shadow: 0px 0px 5px #555;
+}
+.border-bot {
+    border-bottom:1px solid #CCC;
+}

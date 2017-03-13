@@ -1,0 +1,169 @@
+body{
+    font-family: calibri;
+    width: 80%;
+    margin:auto;
+    background-color: #f1f1f1;
+  background: url("../images/background.jpg") repeat-x;
+   background-size:100% 142px;   
+}
+#container{
+    background-color:white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 5px 10px grey;
+
+    
+}
+#top{
+    
+    top: 0px;
+    width:78%;
+    margin:auto;
+    padding-top: 10px;
+
+    
+}
+#top img{
+    
+        
+    
+}
+
+#topcover{
+   background: url("../images/background.jpg") repeat-x;
+   background-size:100% 140px;    
+    
+}
+#top .top{
+   font-family:arial;
+   font-weight:bold;
+   font-size: 35px;
+   padding: 0px 70px;
+   position:absolute;
+   color: #1a276a;
+   margin-bottom:0px;
+
+}
+#top p{
+    margin-top:0px;
+}
+
+#menu{
+    color:black;
+}
+#menu ul{
+    background-color:#e1e1e1;
+    font-weight:bold;
+   padding: 10px 15px;
+    color:black;
+    margin-top:0px;
+ 
+    
+}
+#menu li{
+ display:inline;
+
+  list-style-type:none;
+}
+
+  
+#menu a{
+    text-decoration:none;
+    padding: 10px 25px;
+   margin-left: -15px;
+     color:black;
+}
+
+
+#menu a:hover{
+background-color: #222222;
+color:white;
+}
+
+#selected{
+color:white;    
+background-color: #222222;
+
+
+
+}
+#discription{
+   
+    margin:50px;
+    height: 350px;        
+}
+#discription a{
+   
+  text-decoration:none;
+  color:white;
+  padding:7px;
+  background:linear-gradient(#aaaaaa,#222222);
+  font-weight:bold;
+  border-radius:3px;     
+}
+#slideshow{
+height: 300px; 
+        
+}
+
+#slideshow img{
+    width: 500px;   
+    height: 300px;      
+    float:right;  
+
+}
+
+#next a{
+    float:right;
+    margin-right:10px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:40px;
+    color:royalblue;
+    padding:0px;
+    background:linear-gradient(#ffffff,#ffffff); 
+
+}
+#margin{
+    width: 89%;
+    margin:auto;
+    border: 1px solid grey;
+    margin-top:-30px;
+}
+#others{
+    width: 280px;
+    float:left;
+    margin-right: 60px;
+
+    
+}
+#other{
+    width: 270px;
+    float:left;
+
+
+    
+}
+#other a{
+    
+  text-decoration:none;
+  color:white;
+  padding:7px;
+  background:linear-gradient(#aaaaaa,#222222);
+  font-weight:bold;
+  border-radius:3px;     
+    }
+#others a{
+    
+  text-decoration:none;
+  color:white;
+  padding:7px;
+  background:linear-gradient(#aaaaaa,#222222);
+  font-weight:bold;
+  border-radius:3px;     
+    
+}
+
+
+
+
+
