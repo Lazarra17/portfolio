@@ -59,7 +59,7 @@
 <nav class="navbar navbar-inverse bg-blue ">
     
         <div class="navbar-header">
-            <a href="index.html" class="navbar-brand"><i class="fa fa-home lg text-white"></i></a>
+            <a href="index.php" class="navbar-brand"><i class="fa fa-home lg text-white"></i></a>
             <button class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -68,18 +68,18 @@
         </div>
         <div class="navbar-collapse collapse" id="myNav">
             <ul class="nav navbar-nav">
-                <li class="active-menu"><a href="index.html">Home</a></li>
-                <li><a href="responsive-website.htm">Responsive Website</a></li>
-                <li><a href="static-website.htm">Static Website</a></li>
-                <li><a href="mis.htm">MIS</a></li>
-                <li><a href="email-HTML.htm">Email HTML</a></li>
+                <li class="active-menu"><a href="index.php">Home</a></li>
+                <li><a href="responsive-website.php">Responsive Website</a></li>
+                <li><a href="static-website.php">Static Website</a></li>
+                <li><a href="mis.php">MIS</a></li>
+                <li><a href="email-HTML.php">Email HTML</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Others <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="edm.htm">EDM Layout</a></li>
-                            <li><a href="fb-banner.htm">FB Banner</a></li>
+                            <li><a href="edm.php">EDM Layout</a></li>
+                            <li><a href="fb-banner.php">FB Banner</a></li>
                         </ul>
-                    </li>
+                </li>
             </ul>
         </div>
 </nav>
@@ -101,7 +101,7 @@
 <!--Responsive Websites-->    
     <div class="row space-top">
         <div class="col-lg-6 col-mg-6 col-xs-6"><h1 class="L17-content-title"><small>Responsive Website</small></h1></div>
-        <div class="col-lg-6 col-mg-6 col-xs-6 text-right"><a href="responsive-website.htm" class="btn btn-info">View more</a></div>
+        <div class="col-lg-6 col-mg-6 col-xs-6 text-right"><a href="responsive-website.php" class="btn btn-info">View more</a></div>
     </div>
     <div class="row">    
           <!--Image responsive 1-->
@@ -152,7 +152,7 @@
 <!--Static Websites-->    
     <div class="row space-top">
         <div class="col-lg-6 col-mg-6 col-xs-6"><h1 class="L17-content-title"><small>Static Website</small></h1></div>
-        <div class="col-lg-6 col-mg-6 col-xs-6 text-right"><a href="static-website.htm" class="btn btn-info">View more</a></div>
+        <div class="col-lg-6 col-mg-6 col-xs-6 text-right"><a href="static-website.php" class="btn btn-info">View more</a></div>
     </div>
     <div class="row">    
        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
@@ -290,7 +290,7 @@
      <!--EDM-->    
     <div class="row space-top">
         <div class="col-lg-6 col-mg-6 col-xs-6"><h1 class="L17-content-title"><small>Email Direct Marketing (EDM)</small></h1></div>
-        <div class="col-lg-6 col-mg-6 col-xs-6 text-right"><a href="edm.htm" class="btn btn-info">View more</a></div>
+        <div class="col-lg-6 col-mg-6 col-xs-6 text-right"><a href="edm.php" class="btn btn-info">View more</a></div>
     </div>  
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
@@ -447,7 +447,7 @@
     <!---FB Banners-->
     <div class="row space-top">
         <div class="col-lg-6 col-mg-6 col-xs-6"><h1 class="L17-content-title"><small>Promotional Banners</small></h1></div>
-        <div class="col-lg-6 col-mg-6 col-xs-6 text-right"><a href="fb-banner.htm" class="btn btn-info">View more</a></div>
+        <div class="col-lg-6 col-mg-6 col-xs-6 text-right"><a href="fb-banner.php" class="btn btn-info">View more</a></div>
     </div>
     <!--First Row-->
     <div class="row space-top">

@@ -28,9 +28,8 @@
         </div>
         <div class="col-lg-5 col-md-5 col-xs-5 text-right icons"> 
             <a href="https://www.facebook.com/Chad.Nico.Lazarra" target="_blank" class="social-icon"> <i class="fa fa-facebook social-size"></i></a>
-            <a href="https://www.linkedin.com/in/Chad-Nico-Lazarra" target="_blank" class="social-icon"><i class="fa fa-linkedin social-size"></i></a>
-           
-         </div>
+                 <a href="https://www.linkedin.com/in/Chad-Nico-Lazarra" target="_blank" class="social-icon"><i class="fa fa-linkedin social-size"></i></a>
+            </div>
         <div class="col-lg-1 col-md-1 col-xs-1 text-right"> </div>
     </div>
 </div>
@@ -40,7 +39,7 @@
 <nav class="navbar navbar-inverse bg-blue ">
     
         <div class="navbar-header">
-            <a href="index.html" class="navbar-brand"><i class="fa fa-home lg text-white"></i></a>
+            <a href="index.php" class="navbar-brand"><i class="fa fa-home lg text-white"></i></a>
             <button class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -49,18 +48,18 @@
         </div>
         <div class="navbar-collapse collapse" id="myNav">
             <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="responsive-website.htm">Responsive Website</a></li>
-                <li><a href="static-website.htm">Static Website</a></li>
-                <li class="active-menu"><a href="mis.htm">MIS</a></li>
-                <li><a href="email-HTML.htm">Email HTML</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li class="active-menu"><a href="responsive-website.php">Responsive Website</a></li>
+                <li><a href="static-website.php">Static Website</a></li>
+                <li><a href="mis.php">MIS</a></li>
+                <li><a href="email-HTML.php">Email HTML</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Others <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="edm.htm">EDM Layout</a></li>
-                            <li><a href="fb-banner.htm">FB Banner</a></li>
+                            <li><a href="edm.php">EDM Layout</a></li>
+                            <li><a href="fb-banner.php">FB Banner</a></li>
                         </ul>
-                    </li>
+                </li>
             </ul>
         </div>
 </nav>
@@ -75,58 +74,42 @@
 <!--Static Websites-->    
 
     <div class="row">    
-       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-           <div class="row">
-            <!---NTIP Ice Shop MIS-->
-            <div class="col-lg-12 col-md-12 col-xs-12">
-            <img src="images/static-websites/ntip-ice-shop/ntip-ice-shop.jpg" class="img-thumbnail img-responsive center-block" style="width: 100%;" />
+  
+          <!--Image responsive 1-->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <a href="http://asiatravel.net/ar-ae/index.html" target="_blank">
+        <img src="images/responsive-websites/asiatravel-arabic-site/asiatravel-arabic-site.jpg" class="img-thumbnail img-responsive center-block res-margin" style="width: 100%;" />
+        </a>
+            <div class="responsive-web-name">
+               <h3> <a href="http://asiatravel.net/ar-ae/index.html" target="_blank" class="responsive-web-link">Asiatravel Arabic Site</a></h3>
             </div>
-            <div class="col-lg-12 col-md-12 col-xs-12 text-left">
-                <p class="web-name">NTIP Ice Shop MIS</p>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+       <a href="#">
+        <img src="images/responsive-websites/lazarra17.jpg" class="img-thumbnail img-responsive center-block res-margin" style="width: 100%;" />
+        </a>
+            <div class="responsive-web-name">
+               <h3> <a href="#" class="responsive-web-link">Lazarra 17</a></h3>
             </div>
-            <div class="col-lg-12 col-md-12 col-xs-12 text-right"> 
-                <a href="static-website/ntip/index.php" target="_blank" class="btn btn-warning">VIEW CONTENT</a>
+        </div>
+        
+          <!--Image responsive 3-->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+       <a href="http://www.asiatravel.com/en-us/promotions/united_arab_emirates/IMG_World_of_Adventure_Dubai_Parks_Resorts.html" target="_blank">
+        <img src="images/responsive-websites/IMG_and_dubai_parks.jpg" class="img-thumbnail img-responsive center-block res-margin" style="width: 100%;" />
+        </a>
+            <div class="responsive-web-name">
+               <h3> <a href="http://www.asiatravel.com/en-us/promotions/united_arab_emirates/IMG_World_of_Adventure_Dubai_Parks_Resorts.html" class="responsive-web-link" target="_blank">IMG and Dubai Parks</a></h3>
             </div>
-                
-            </div>
-       </div>
-       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="row">
-            <!---Akuna Shop MIS-->
-                <div class="col-lg-12 col-md-12 col-xs-12">
-                <img src="images/static-websites/akuna-shop-mis/akuna-shop-MIS.jpg" class="img-thumbnail img-responsive center-block" style="width: 100%;" />
-                </div>
-            <div class="col-lg-12 col-md-12 col-xs-12 text-left">
-                <p class="web-name">Akuna Shop MIS</p>
-            </div>
-            <div class="col-lg-12 col-md-12 col-xs-12 text-right"> 
-                <a href="static-website/akuna/index.php" target="_blank" class="btn btn-warning">VIEW CONTENT</a>
-            </div>
-                
-            </div>
-       </div>
-       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-             <div class="row">
-            <!---San Pedro HB-->
-                <div class="col-lg-12 col-md-12 col-xs-12">
-                <img src="images/static-websites/san-pedro-hb/san-pedro-HB.jpg" class="img-thumbnail img-responsive center-block" style="width: 100%;" />
-                </div>
-            <div class="col-lg-12 col-md-12 col-xs-12 text-left">
-                <p class="web-name">San Pedro HB E-commerce</p>
-            </div>
-            <div class="col-lg-12 col-md-12 col-xs-12 text-right"> 
-                <a href="static-website/sanpedro/index.php" target="_blank" class="btn btn-warning">VIEW CONTENT</a>
-            </div>
-                
-            </div>
-       </div>
+        </div>
+         
+    </div>
       
      
     
-    </div>
-
+  
     
-     <!--EDM-->    
    
  
     

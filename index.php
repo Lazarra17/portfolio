@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="icon" href="images/icon.ico" />
     </head>
     <body>
         <!--Navigation-->
@@ -23,16 +24,16 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNav">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT ME</a></li>
+                        <li class="active"><a href="index.php">HOME</a></li>
+                        <li><a href="about.php">ABOUT ME</a></li>
                         <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">PORTFOLIO <span class="caret"></span></a>
 							<ul class="dropdown-menu ">
-								<li><a href="portfolio/index.html" target="_blank">SUMMARY</a></li>
-								<li><a href="portfolio/responsive-website.htm" target="_blank">RESPONSIVE WEBSITE</a></li>
-								<li><a href="portfolio/static-website.htm" target="_blank">STATIC WEBSITE</a></li>
-								<li><a href="portfolio/mis.htm" target="_blank">MIS</a></li>
-								<li><a href="portfolio/edm.htm" target="_blank">EDM</a></li>
-								<li><a href="portfolio/fb-banner.htm" target="_blank">PROMOTIONAL BANNER</a></li>
+								<li><a href="portfolio/index.php" target="_blank">SUMMARY</a></li>
+								<li><a href="portfolio/responsive-website.php" target="_blank">RESPONSIVE WEBSITE</a></li>
+								<li><a href="portfolio/static-website.php" target="_blank">STATIC WEBSITE</a></li>
+								<li><a href="portfolio/mis.php" target="_blank">MIS</a></li>
+								<li><a href="portfolio/edm.php" target="_blank">EDM</a></li>
+								<li><a href="portfolio/fb-banner.php" target="_blank">PROMOTIONAL BANNER</a></li>
 							</ul>
 						</li>
                         <li><a href="pdf/CV-Chad-Final.docx.pdf">CURRICULUM VITAE</a></li>
@@ -108,8 +109,8 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-xs-12 margin-off">
                     <ul class="my-navbar text-center footer-link-bg">
-                        <li><a href="about.html">About Me</a>  </li>|
-                        <li><a href="portfolio.html">Portfolio</a>  </li>|
+                        <li><a href="about.php">About Me</a>  </li>|
+                        <li><a href="portfolio.php">Portfolio</a>  </li>|
                         <li><a href="pdf/CV-Chad-Final.docx.pdf">Curriculum Vitae</a></li>
                     </ul>
                 </div>

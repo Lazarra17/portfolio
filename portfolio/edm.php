@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link rel="icon" href="images/icons/icon.ico" />
+    <link rel="icon" href="images/icon.ico" />
     
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -40,7 +40,7 @@
 <nav class="navbar navbar-inverse bg-blue ">
     
         <div class="navbar-header">
-            <a href="index.html" class="navbar-brand"><i class="fa fa-home lg text-white"></i></a>
+            <a href="index.php" class="navbar-brand"><i class="fa fa-home lg text-white"></i></a>
             <button class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -49,16 +49,16 @@
         </div>
         <div class="navbar-collapse collapse" id="myNav">
             <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="responsive-website.htm">Responsive Website</a></li>
-                <li><a href="static-website.htm">Static Website</a></li>
-                <li><a href="mis.htm">MIS</a></li>
-                <li><a href="email-HTML.htm">Email HTML</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="responsive-website.php">Responsive Website</a></li>
+                <li><a href="static-website.php">Static Website</a></li>
+                <li><a href="mis.php">MIS</a></li>
+                <li><a href="email-HTML.php">Email HTML</a></li>
                 <li class="dropdown active-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Others <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li  class="active-menu"><a href="edm.htm">EDM Layout</a></li>
-                            <li><a href="fb-banner.htm">FB Banner</a></li>
+                            <li  class="active-menu"><a href="edm.php">EDM Layout</a></li>
+                            <li><a href="fb-banner.php">FB Banner</a></li>
                         </ul>
                 </li>
             </ul>
