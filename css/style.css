@@ -27,7 +27,17 @@ img.logo{
         margin-top: -5px;
     }
 }
-
+/*Navigation Dropdown Menu*/
+#myNav li.dropdown ul.dropdown-menu{
+	background-color: #333;
+	font-size: 13px;
+}
+#myNav li.dropdown ul.dropdown-menu li a{
+	color:white;
+}
+#myNav li.dropdown ul.dropdown-menu li a:hover{
+	background-color:#444;
+}
 /*Background*/
 .mybg{
     background-image: url(../images/banner.jpg);

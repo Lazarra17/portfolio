@@ -25,7 +25,16 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.html">HOME</a></li>
                         <li class="active"><a href="about.html">ABOUT ME</a></li>
-                        <li><a href="portfolio.html">PORTFOLIO</a></li>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">PORTFOLIO <span class="caret"></span></a>
+							<ul class="dropdown-menu ">
+								<li><a href="portfolio/index.html" target="_blank">SUMMARY</a></li>
+								<li><a href="portfolio/responsive-website.htm" target="_blank">RESPONSIVE WEBSITE</a></li>
+								<li><a href="portfolio/static-website.htm" target="_blank">STATIC WEBSITE</a></li>
+								<li><a href="portfolio/mis.htm" target="_blank">MIS</a></li>
+								<li><a href="portfolio/edm.htm" target="_blank">EDM</a></li>
+								<li><a href="portfolio/fb-banner.htm" target="_blank">PROMOTIONAL BANNER</a></li>
+							</ul>
+						</li>
                         <li><a href="pdf/CV-Chad-Final.docx.pdf">CURRICULUM VITAE</a></li>
                     </ul>
                 </div>
@@ -44,7 +53,7 @@
                         System(MIS) and designing promotional materials. 
                     </p>
                     <p class="about-me-content">
-                        I am a responsible, assertive, resourceful and a team player person. I am very 
+                        I am a responsible, comitted, resourceful and a team player person. I am very 
                         knowledgeable in using HTML, CSS, JavaScript, PHP & MySql.  I Graduated in
                         Polytechnic University of the Philippines having a diploma in Information
                         Communication Management Technology and continued my studies in Jose Rizal University

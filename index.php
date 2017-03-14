@@ -25,7 +25,16 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="index.html">HOME</a></li>
                         <li><a href="about.html">ABOUT ME</a></li>
-                        <li><a href="portfolio.html">PORTFOLIO</a></li>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">PORTFOLIO <span class="caret"></span></a>
+							<ul class="dropdown-menu ">
+								<li><a href="portfolio/index.html" target="_blank">SUMMARY</a></li>
+								<li><a href="portfolio/responsive-website.htm" target="_blank">RESPONSIVE WEBSITE</a></li>
+								<li><a href="portfolio/static-website.htm" target="_blank">STATIC WEBSITE</a></li>
+								<li><a href="portfolio/mis.htm" target="_blank">MIS</a></li>
+								<li><a href="portfolio/edm.htm" target="_blank">EDM</a></li>
+								<li><a href="portfolio/fb-banner.htm" target="_blank">PROMOTIONAL BANNER</a></li>
+							</ul>
+						</li>
                         <li><a href="pdf/CV-Chad-Final.docx.pdf">CURRICULUM VITAE</a></li>
                     </ul>
                 </div>
@@ -50,7 +59,7 @@
                 
                 <div class="col-lg-8 col-md-8 col-xs-12">
                     <h3 class="summary-name">Chad Nico Lazarra</h3>
-                    <p class="summary-content">I am commited, assertive, responsible, self-motivated and a team player person.  I am very knowledgeable in web developing and designing.  I have created several websites, Promotional Materials and MIS.  I finished Asiatravel.com Arabic site Project 2016-2017  and an E-commerce website for New Taytay Ice Plant.  I have one year experience as a web designer in asiatravel.com</p>
+                    <p class="summary-content">I am responsible, comitted, resourceful and a team player person.  I am very knowledgeable in web developing and designing.  I have created several websites, Promotional Materials and MIS.  I finished Asiatravel.com Arabic site Project 2016-2017 and an online ordering website for New Taytay Ice Plant 2015.  I have one year experience as a web designer in asiatravel.com</p>
                     <p class="summary-content"><strong>My Ambition:</strong> To be a Full Stack Developer someday and create several Management Information System(MIS) that will benefit the company and improve exisiting operations.</p>
                     <p class="summary-content"><strong>Scripting Languages:</strong> HTML5,CSS3,JavaScript, PHP and MySql<br />
                     <strong>Frameworks:</strong> Bootstrap, JQuery and Angular JS</p>
