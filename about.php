@@ -65,13 +65,13 @@
                         code editor, HTML,CSS JavaScript, PHP & MySql as my primary languages and Bootstrap,
                         Angular JS and jQuery as my frameworks as a result I can build a beautiful and powerful 
                         websites.  My Thesis was created using PHP & MySql, It was an online ordering website
-                        for New TayTay Ice Plant, it has a features of registration,login, ordering of products
-                        producing reports until backup and restoration and fortunately absorbed by the company.
+                        for New TayTay Ice Plant, it has a features of registration,login, emplpoyee ordering and delivery management, 
+                        reports(PDF), backup, recovery etc and fortunately absorbed by the company.
                     </p>
                     <p class="about-me-content">
                         I have one year working experience as a web designer/developer dubai account in 
                         asiatravel.com, I maintained asiatravel.com web content, fixed dead links, created
-                        microsites and designed EDM and newsletters,I also finished our team project 
+                        microsites, email-html and designed EDM and newsletters, I also finished our team project 
                         IP Driven Site - Arabic Asiatravel.com
                     </p>
                     <p class="about-me-content">
