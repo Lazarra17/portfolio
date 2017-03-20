@@ -123,6 +123,17 @@ img.social-link{
     width:40px;
 }
 
+/*Registration*/
+.registration{
+	border: 1px solid #888888;
+	padding:0px 15px 0px 15px;
+}
+.registration-title{
+	color: #0054a6;	
+	font-weight: bold;
+}
+
+
 /*Footer and Secondary Navigation*/
 .footer-link-bg{
     background-color:#222;
