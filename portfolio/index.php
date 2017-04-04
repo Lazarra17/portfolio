@@ -137,10 +137,10 @@
           <!--Image responsive 4-->
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
         <a href="#">
-        <img src="sample3.jpg" class="img-thumbnail img-responsive center-block res-margin" style="width: 100%;" />
+        <img src="Images/responsive-websites/dubaiparks.jpg" class="img-thumbnail img-responsive center-block res-margin" style="width: 100%;" />
         </a>
             <div class="responsive-web-name">
-               <h3> <a href="#" class="responsive-web-link">COMMING SOON</a></h3>
+               <h3> <a href="http://www.asiatravel.com/en-us/promotions/united_arab_emirates/dubai_parks_and_resort.html" class="responsive-web-link">Dubai Parks and Resorts</a></h3>
             </div>
         </div>
         

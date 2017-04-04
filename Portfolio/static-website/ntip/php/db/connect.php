@@ -3,7 +3,6 @@
 	$user 	= 'root';
 	$pass	= '';
 	$db		= 'ntips';
-
 	$conn = mysql_connect($host, $user, $pass);
 	mysql_connect($host, $user, $pass);
 	

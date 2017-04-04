@@ -4,8 +4,10 @@
 <!Doctype html>
 <html>
    <!--Head,Meta and Title tags-->
-    <?php include "inclusion/header.php";?>
-    
+    <head>
+    	<title>About Chad Nico Lazarra | About Me | Ambition</title>
+    	<?php include "inclusion/header.php";?>
+    </head>
     <body>
         <!--Navigation-->
         <?php include "inclusion/navigation.php"; ?>
@@ -16,7 +18,7 @@
                 <div class="col-lg-7 col-md-7 col-xs-12">
                    <h1 class="about-me-name">Chad Nico Lazarra</h1>
                     <p class="about-me-tagline">
-                        I have an ambition to become a Full Stack Developer.  My expertise are 
+                        I have an ambition to become a Full Stack Developer.  My areas of expertise are 
                         creating beautiful user-friendly websites, developing Management Information
                         System(MIS) and designing promotional materials. 
                     </p>
@@ -41,11 +43,7 @@
                         microsites, email-html and designed EDM and newsletters, I also finished our team project 
                         IP Driven Site - Arabic Asiatravel.com
                     </p>
-                    <p class="about-me-content">
-                        Currently, I’m on learning Laravel (PHP Framework) because I’m planning to
-                        work as a Back-end developer so that I can achieve my ambition to become
-                        Full Stack Developer.  
-                    </p>
+                   
                     <p class="about-me-content">
                     <a target="_blank" href="https://www.facebook.com/Chad.Nico.Lazarra"><img src="images/social-media/fb.png" class="social-link" /></a>
                     <a target="_blank" href="https://www.linkedin.com/in/chad-nico-lazarra/"><img src="images/social-media/linkedIn.png" class="social-link" /></a>

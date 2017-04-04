@@ -16,7 +16,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     
-	<title>Lazarra17 | Chad Nico Lazarra </title>
+	<title>Lazarra17 | EDM Layout</title>
 </head>
 
 <body>
@@ -574,12 +574,49 @@
                                 <p class="web-name">Dubai Parks</p>
                             </div>
                              <div class="col-lg-12 col-md-12 col-xs-12 text-right">
-                                <a href="#modal2017EDM4" data-toggle="modal" class="btn btn-warning">VIEW IMAGE</a>
+                                <a href="#modal2017EDM5" data-toggle="modal" class="btn btn-warning">VIEW IMAGE</a>
                             </div>
                         </div>   
 
                     </div>        
             </div>
+            
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="row">
+                    <!--Dubai Parks-->
+                        <div class="col-lg-12 col-md-12 col-xs-12">
+                            <div class="edm-wrapper">
+                            <img src="images/EDM/2017/Dine_in_Lapita.jpg" class="img-responsive img-thumbnail" />
+                            </div>
+                             <div class="col-lg-12 col-md-12 col-xs-12 text-left">
+                                <p class="web-name">Dine in Lapita Hotel</p>
+                            </div>
+                             <div class="col-lg-12 col-md-12 col-xs-12 text-right">
+                                <a href="#modal2017EDM6" data-toggle="modal" class="btn btn-warning">VIEW IMAGE</a>
+                            </div>
+                        </div>   
+
+                    </div>        
+            </div>
+            
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="row">
+                    <!--Dubai Parks-->
+                        <div class="col-lg-12 col-md-12 col-xs-12">
+                            <div class="edm-wrapper">
+                            <img src="images/EDM/2017/fraser.jpg" class="img-responsive img-thumbnail" />
+                            </div>
+                             <div class="col-lg-12 col-md-12 col-xs-12 text-left">
+                                <p class="web-name">Fraser Suites</p>
+                            </div>
+                             <div class="col-lg-12 col-md-12 col-xs-12 text-right">
+                                <a href="#modal2017EDM7" data-toggle="modal" class="btn btn-warning">VIEW IMAGE</a>
+                            </div>
+                        </div>   
+
+                    </div>        
+            </div>
+            
         </div>
         
         
@@ -873,6 +910,26 @@
             <div class="modal-content">
                 <div class="modal-body">
                      <img src="images/EDM/2017/02-18-17.jpg" class="img-thumbnail" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal2017EDM6" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!--Start modal-->
+            <div class="modal-content">
+                <div class="modal-body">
+                     <img src="images/EDM/2017/Dine_in_Lapita.jpg" class="img-thumbnail" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal2017EDM7" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!--Start modal-->
+            <div class="modal-content">
+                <div class="modal-body">
+                     <img src="images/EDM/2017/fraser.jpg" class="img-thumbnail" />
                 </div>
             </div>
         </div>

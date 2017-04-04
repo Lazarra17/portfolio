@@ -13,5 +13,5 @@
             </div>
 </div>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="/chad-nico-lazarra/js/jquery.min.js"></script>
+<script src="/chad-nico-lazarra/js/bootstrap.min.js"></script>

@@ -362,6 +362,44 @@
         </div>
         
    </div>
+    
+    <div class="row space-top">
+    <div class="col-lg-3 col-md-3 col-xs-12">
+            <div class="row">
+            <!--IMG World of Adventure-->
+                <div class="col-lg-12 col-md-12 col-xs-12">
+                
+                    <img src="images/EDM/FB-banner/IMG_world_of_adventure.jpg" class="img-responsive img-thumbnail" />
+                    
+                     <div class="col-lg-12 col-md-12 col-xs-12 text-left">
+                        <p class="web-name">IMG World of Adventure</p>
+                    </div>
+                     <div class="col-lg-12 col-md-12 col-xs-12 text-right">
+                        <a href="#modalFB17" data-toggle="modal" class="btn btn-warning">VIEW IMAGE</a>
+                    </div>
+                </div>   
+                 
+            </div>        
+        </div>
+    
+    <div class="col-lg-3 col-md-3 col-xs-12">
+            <div class="row">
+            <!--Cartoon Network Adventure-->
+                <div class="col-lg-12 col-md-12 col-xs-12">
+                
+                    <img src="images/EDM/FB-banner/Cartoon_Network_Adventure.jpg" class="img-responsive img-thumbnail" />
+                    
+                     <div class="col-lg-12 col-md-12 col-xs-12 text-left">
+                        <p class="web-name">Cartoon Network Adventure</p>
+                    </div>
+                     <div class="col-lg-12 col-md-12 col-xs-12 text-right">
+                        <a href="#modalFB18" data-toggle="modal" class="btn btn-warning">VIEW IMAGE</a>
+                    </div>
+                </div>   
+                 
+            </div>        
+        </div>     
+   </div>
    
    
    <!--Promotional FB Modal-->
@@ -531,7 +569,7 @@
         </div>
     </div>
     
-            <div id="modalFB16" class="modal fade" role="dialog">
+    <div id="modalFB16" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <!--Start modal-->
             <div class="modal-content">
@@ -541,6 +579,27 @@
             </div>
         </div>
     </div>
+    <div id="modalFB17" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!--Start modal-->
+            <div class="modal-content">
+                <div class="modal-body">
+                     <img src="images/EDM/FB-banner/IMG_world_of_adventure.jpg" class="img-thumbnail" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalFB18" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!--Start modal-->
+            <div class="modal-content">
+                <div class="modal-body">
+                     <img src="images/EDM/FB-banner/Cartoon_Network_Adventure.jpg" class="img-thumbnail" />
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
 <!---Footer--->
 <footer>    

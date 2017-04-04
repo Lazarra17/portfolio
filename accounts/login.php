@@ -1,6 +1,6 @@
 <?php
-include "inclusion/conn/conn.php";
-include "inclusion/function.php";
+include "../inclusion/conn/conn.php";
+include "../inclusion/function.php";
 
 $page = "";
 $message = "";
@@ -31,7 +31,7 @@ if (isset($_POST["submit"])){
 		}
 		else{
 			$error = false;
-			addNewAdmin($admin_type,$username,$password);
+			
 			$message = message();
 		}
 	}
@@ -49,15 +49,17 @@ if (isset($_POST["submit"])){
 <!Doctype html>
 <html>
    <!--Head,Meta and Title tags-->
-    <?php include "inclusion/header.php";?>
-    
+    <head>
+    	<title>Admin Login</title>
+    	<?php include "../inclusion/header.php";?>
+    </head>
     <body>
         <!--Navigation-->
-        <?php include "inclusion/navigation.php"; ?>
+        <?php include "../inclusion/navigation.php"; ?>
         <!--Welcome Banner-->
        
         <div class="container" ng-app="myApp" ng-controller="myCtrl">
-            <div class="row" style="margin-top:40px;margin-bottom:80px;">
+            <div class="row" style="margin-top:40px;margin-bottom:150px;">
                 <div class="col-lg-3 col-md-3 col-xs-12"></div>
                 <div class="col-lg-6 col-md-6 col-xs-12">
                <?php if ($error == true){ ?>
@@ -66,43 +68,29 @@ if (isset($_POST["submit"])){
 				<p class="text-center bg-success"><?php echo $message; ?></p>
 					<?php } ?>
                 	<div class="registration">
-                		<h3 class="registration-title">Administrator Registration</h3>
+                		<h3 class="registration-title">Administrator Login</h3>
                 		<p><small>This system is restricted to authorized users only.</small> </p>
                 		<p><small>Individuals attempting unauthorized access or use of this computer system may be subject violators to criminal, civil and / or administrative actions.</small></p>
                 		
                 		<div class="row">
                 			<div class="col-lg-3 col-md-3 col-xs-3 hidden-xs">
-                				<img src="images/security.png" class="img-responsive ">
+                				<img src="/chad-nico-lazarra/images/security.png" class="img-responsive ">
                 			</div>
                 			<div class="col-lg-9 col-md-9 col-xs-9">
                 				<form class="form-horizontal" name="myForm" action="<?php $_SERVER['PHP_SELF']?>" method="POST">
-               					      <div class="form-group">
-              					      		<label class="control-label col-sm-4" for="Admin Type">Admin Type:</label>
-              					      			<div class="col-sm-5">
-               					      				<select name="admin_type" required class="form-control">
-               					      					<option selected>Admin</option>
-               					      				</select>
-               					      			</div>
-               					      </div>
-               					      <div class="form-group has-feedback" ng-class="{'has-success' : myForm.username.$valid, 'has-error' : myForm.username.$invalid && myForm.username.$dirty}">
+               					      
+              					      <div class="form-group">
                					      		<label class="control-label col-sm-4">Username:</label>
                					      		<div class="col-sm-8">
-               					      			<input type="text" ng-minlength="5" required name="username" value="<?php if(isset($_POST['submit'])) echo $_POST['username'];  ?>" ng-model="username" class="form-control">
+               					      			<input type="text" required name="username" value="<?php if(isset($_POST['submit'])) echo $_POST['username'];  ?>" class="form-control">
                					      			
-               					      			<span class="glyphicon form-control-feedback" ng-class="{'glyphicon-ok' : myForm.username.$valid, 'glyphicon-remove' : myForm.username.$invalid && myForm.username.$dirty}"></span>
+               					      			
                					      		</div>
                						  </div>
-               					      <div class="form-group has-feedback" ng-class="{'has-success' : myForm.password.$valid, 'has-error' : myForm.password.$invalid && myForm.password.$dirty}">
+               					      <div class="form-group">
                					      		<label class="control-label col-sm-4">Password:</label>
                					      		<div class="col-sm-8">
-               					      			<input type="password" required name="password" ng-minlength="6" ng-model="password"  class="form-control">
-               					      			<span class="glyphicon form-control-feedback" ng-class="{'glyphicon-remove' : myForm.password.$invalid && myForm.password.$dirty, 'glyphicon-ok' : myForm.password.$valid}"></span>
-               					      		</div>
-               						  </div>
-              					      <div class="form-group">
-               					      		<label class="control-label col-sm-4">Code:</label>
-               					      		<div class="col-sm-8">
-               					      			<input type="password" required name="code" class="form-control">
+               					      			<input type="password" required name="password"  class="form-control">
                					      		</div>
                						  </div>
                					      <div class="form-group text-right">
@@ -112,7 +100,6 @@ if (isset($_POST["submit"])){
                					      			</button>
                					      		</div>               					      	
                					      </div>
-                					  
                 				</form>
                 			</div>
                 		</div>
@@ -125,7 +112,7 @@ if (isset($_POST["submit"])){
 
         <!--Footer Links-->
         <?php 
-			include "inclusion/footer.php"
+			include "../inclusion/footer.php"
 		?>
         
     </body>

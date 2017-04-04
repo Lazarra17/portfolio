@@ -132,7 +132,19 @@ img.social-link{
 	color: #0054a6;	
 	font-weight: bold;
 }
+/*Registration Security logo*/
+.security-logo{
+	margin: 15px 15px 0 15px !important;
+}
+.control-logo{
+	float:-right;
+}
 
+
+/*Control Center Layout*/
+.bg-black{
+	background-color:black;
+}
 
 /*Footer and Secondary Navigation*/
 .footer-link-bg{
