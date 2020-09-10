@@ -1,5 +1,5 @@
 <?php
-	$page = "about.php";
+	$page = "about.php"; 
 ?>
 <!Doctype html>
 <html>
