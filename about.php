@@ -3,7 +3,7 @@
 ?>
 <!Doctype html>
 <html>
-   <!--Head,Meta and Title tags-->
+   <!--Head,Meta and Title tags test-->
     <head>
     	<title>About Chad Nico Lazarra | About Me | Ambition</title>
     	<?php include "inclusion/header.php";?>
