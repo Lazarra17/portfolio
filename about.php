@@ -11,7 +11,7 @@
     <body>
         <!--Navigation-->
         <?php include "inclusion/navigation.php"; ?>
-        <!--Welcome Banner-->
+        <!--Welcome Banner   -->
         <div class="about-me-bg">
         <div class="container">
             <div class="row">
