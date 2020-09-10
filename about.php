@@ -1,9 +1,9 @@
 <?php
-	$page = "about.php";
+	$page = "about.php"; 
 ?>
 <!Doctype html>
 <html>
-   <!--Head,Meta and Title tags-->
+   <!--Head,Meta and Title tags test-->
     <head>
     	<title>About Chad Nico Lazarra | About Me | Ambition</title>
     	<?php include "inclusion/header.php";?>
@@ -11,7 +11,7 @@
     <body>
         <!--Navigation-->
         <?php include "inclusion/navigation.php"; ?>
-        <!--Welcome Banner-->
+        <!--Welcome Banner   -->
         <div class="about-me-bg">
         <div class="container">
             <div class="row">
